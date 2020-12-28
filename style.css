@@ -90,3 +90,10 @@ body {
 .login-btn :active {
   background: #207DFF;
 }
+.links {
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+}
