@@ -81,5 +81,12 @@ body {
   height: 60px;
   border-radius: 30px;
   text-align: center;
+  background: #20A4F3;
+  transition: 0.5s;
+}
+.login-btn :hover {
+  background: #2274A5;
+}
+.login-btn :active {
   background: #207DFF;
 }
