@@ -23,7 +23,7 @@ body {
 
 }
 .logo {
-  background:url("./block.png");
+  background: url("./Logo.png");
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -84,15 +84,17 @@ body {
   background: #20A4F3;
   transition: 0.5s;
 }
-.login-btn :hover {
-  background: #2274A5;
-}
-.login-btn :active {
+.login-btn:hover {
   background: #207DFF;
+}
+.login-btn:active {
+  background: #2274A5;
 }
 .links {
   padding-top: 20px;
   text-align: center;
+}
+.links a {
   text-decoration: none;
   color: #aaa;
   font-size: 15px;
