@@ -69,3 +69,17 @@ body {
   margin: 0 10px -3px 25px;
   fill: #999;
 }
+.login-btn {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+  background: #207DFF;
+}
