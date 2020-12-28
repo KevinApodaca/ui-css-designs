@@ -58,3 +58,9 @@ body {
   color: #555;
   padding: 20px 10px 20px 5px;
 }
+.username, .password {
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+              inset -8px -8px 8px #ffffff;
+}
