@@ -34,6 +34,16 @@ body {
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
 }
+.container:hover .card {
+  filter: blur(20px);
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+.container .card:hover {
+  filter: blur(0px);
+  transform: scale(1.1);
+  opacity: 1;
+}
 .container .card .circle {
   position: relative;
   width: 100%;
