@@ -14,3 +14,12 @@ body {
   background: linear-gradient(45deg, #ffaf00, #bb02ff); /* TODO replace colors */
   background-attachment: fixed;
 }
+.container {
+  position: relative;
+  width: 1150px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
