@@ -45,4 +45,5 @@ body {
 .container .card .circle h2 {
   color: #fff;
   font-size: 4.5rem;
+  padding: 30px 0;
 }
