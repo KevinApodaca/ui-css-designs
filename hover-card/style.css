@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(45deg, #ffaf00, #bb02ff); /* TODO replace colors */
+  background: linear-gradient(45deg, #4e54c8, #8f94fb);
   background-attachment: fixed;
 }
 .container {
@@ -41,4 +41,8 @@ body {
   background: #000;
   clip-path: circle(180px at center 0);
   text-align: center;
+}
+.container .card .circle h2 {
+  color: #fff;
+  font-size: 4.5rem;
 }
