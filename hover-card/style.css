@@ -53,3 +53,6 @@ body {
   text-align: center;
   page-break-after: 20px;
 }
+.container .card .content p {
+  color: #666;
+}
