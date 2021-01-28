@@ -54,3 +54,10 @@ body {
   padding-top: 20px;
   z-index: 1;
 }
+.card .image-section img {
+  max-width: 100%;
+  transition: 0.5s;
+}
+.card:hover .image-section img {
+  max-width: 70%;
+}
