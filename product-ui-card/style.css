@@ -36,3 +36,12 @@ body {
   transform: skewY(390deg);
   top: -70%;
 }
+.card::after {
+  content: 'Kevin';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 8em;
+  color: rgba(0, 0, 0, 0.1);
+}
