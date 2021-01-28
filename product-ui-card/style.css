@@ -21,7 +21,7 @@ body {
   background: #122936;
   overflow: hidden;
 }
-.card::before{
+.card::before {
   content: '';
   position: absolute;
   top: -50%;
@@ -44,4 +44,13 @@ body {
   font-weight: 600;
   font-size: 8em;
   color: rgba(0, 0, 0, 0.1);
+}
+.card .image-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
 }
