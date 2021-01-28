@@ -45,7 +45,7 @@ body {
   font-size: 8em;
   color: rgba(0, 0, 0, 0.1);
 }
-.card .image-section {
+.card .product-image-section {
   position: relative;
   width: 100%;
   display: flex;
@@ -54,10 +54,10 @@ body {
   padding-top: 20px;
   z-index: 1;
 }
-.card .image-section img {
+.card .product-image-section img {
   max-width: 100%;
   transition: 0.5s;
 }
-.card:hover .image-section img {
+.card:hover .product-image-section img {
   max-width: 70%;
 }
