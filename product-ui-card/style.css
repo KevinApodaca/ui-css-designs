@@ -37,7 +37,7 @@ body {
   top: -70%;
 }
 .card::after {
-  content: 'Kevin';
+  content: 'Beats';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -82,4 +82,22 @@ body {
   color: #fff;
   font-weight: 500;
   letter-spacing: 1px;
+}
+.card .product-content-section .product-buy-btn {
+  position: relative;
+  top: 200px;
+  opacity: 0;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: #fff;
+  text-decoration: none;
+  background: #2196f3;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+.card:hover .product-content-section .product-buy-btn {
+  top: 0;
+  opacity: 1;
 }
