@@ -56,7 +56,6 @@ body {
 .hr, .mn, .sc {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   position: absolute;
   border-radius: 50%;
 }
@@ -74,7 +73,7 @@ body {
   position: absolute;
   width: 4px;
   height: 90px;
-  background: #fff;
+  background: aqua;
   z-index: 11;
   border-radius: 6px 6px 0 0;
 }
