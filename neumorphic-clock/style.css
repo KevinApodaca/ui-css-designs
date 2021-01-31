@@ -35,3 +35,37 @@ body {
   border-radius: 50%;
   z-index: 10000;
 }
+.neumorph-clock .neumorph-clock__hour,
+.neumorph-clock .neumorph-clock__minute,
+.neumorph-clock .neumorph-clock__sec
+{
+  position: absolute;
+}
+.neumorph-clock .neumorph-clock__hour, .hr {
+  width: 160px;
+  height: 160px;
+}
+.neumorph-clock .neumorph-clock__minute, .mn {
+  width: 190px;
+  height: 190px;
+}
+.neumorph-clock .neumorph-clock__sec, .sc {
+  width: 230px;
+  height: 230px;
+}
+.hr, .mn, .sc {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  position: absolute;
+  border-radius: 50%;
+}
+.hr:before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 80px;
+  background: #ff105e;
+  z-index: 10;
+  border-radius: 6px 6px 0 0 ;
+}
