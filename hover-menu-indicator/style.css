@@ -14,5 +14,13 @@ body {
   min-height: 100vh;
   /* transition: 0.5s; */
   background-color: #c03546;
+}
 
+.navigation {
+  position: relative;
+  width: 350px;
+  height: 70px;
+  background: #fff;
+  border-radius: 35px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
 }
