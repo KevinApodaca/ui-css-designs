@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover Menu Indicator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="navigation">
+    <ul>
+      <li class="list active" data-color="#f53b57">
+        <a href="#">
+          <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+          <span class="title">Home</span>
+        </a>
+      </li>
+      <li class="list" data-color="#2f89fc">
+        <a href="#">
+          <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+          <span class="title">Profile</span>
+        </a>
+      </li>
+      <li class="list" data-color="#05c46b">
+        <a href="#">
+          <span class="icon"><i class="fa fa-comment" aria-hidden="true"></i></span>
+          <span class="title">Message</span>
+        </a>
+      </li>
+      <li class="list" data-color="#775ada">
+        <a href="#">
+          <span class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+          <span class="title">Help</span>
+        </a>
+      </li>
+      <li class="list" data-color="#eac100">
+        <a href="#">
+          <span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+          <span class="title">Settings</span>
+        </a>
+      </li>
+      <div class="indicator"></div>
+    </ul>
+  </div>
+  <script>
+    let list = document.querySelectorAll('.list');
+    for (let i=0; i<list.length; i++) {
+      list[i].onmouseover = function(){
+        let j = 0;
+        while (j < list.length){
+          list[j++].className = 'list';
+        }
+        list[i].className = 'list active';
+      }
+    }
+    list.forEach(elements => {
+      elements.addEventListener("mouseenter", (event) => {
+        let bg = document.querySelector('body');
+        let color = event.target.getAttribute('data-color');
+        bg.style.backgroundColor = color
+      } )
+    })
+  </script>
+</body>
+</html>
