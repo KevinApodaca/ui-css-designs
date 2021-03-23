@@ -11,31 +11,31 @@
 <body>
   <div class="navigation">
     <ul>
-      <li class="list">
+      <li class="list active" data-color="#f53b57">
         <a href="#">
           <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
           <span class="title">Home</span>
         </a>
       </li>
-      <li class="list">
+      <li class="list" data-color="#2f89fc">
         <a href="#">
           <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
           <span class="title">Profile</span>
         </a>
       </li>
-      <li class="list">
+      <li class="list" data-color="#05c46b">
         <a href="#">
           <span class="icon"><i class="fa fa-comment" aria-hidden="true"></i></span>
           <span class="title">Message</span>
         </a>
       </li>
-      <li class="list">
+      <li class="list" data-color="#775ada">
         <a href="#">
           <span class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
           <span class="title">Help</span>
         </a>
       </li>
-      <li class="list">
+      <li class="list" data-color="#eac100">
         <a href="#">
           <span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
           <span class="title">Settings</span>
@@ -55,6 +55,13 @@
         list[i].className = 'list active';
       }
     }
+    list.forEach(elements => {
+      elements.addEventListener("mouseenter", (event) => {
+        let bg = document.querySelector('body');
+        let color = event.target.getAttribute('data-color');
+        bg.style.backgroundColor = color
+      } )
+    })
   </script>
 </body>
 </html>
