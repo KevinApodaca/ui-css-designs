@@ -79,4 +79,23 @@ body {
   border-radius: 6px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.navigation ul li:hover a .title {
+  opacity: 1;
+  visibility: visible;
+}
+
+.navigation ul li a .title::before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  bottom: -8px;
+  left: 48%;
+  transform: rotate(45deg) translateX(-50%);
+  border-radius: 2px;
 }
