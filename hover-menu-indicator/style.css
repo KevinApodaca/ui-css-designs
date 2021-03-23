@@ -122,22 +122,22 @@ body {
   transition: 0.5s;
 }
 
-.navigation ul li:nth-child(1):hover ~ .indicator{
+.navigation ul li:nth-child(1).active ~ .indicator{
   transform: translateX(calc(70px * 0));
 }
 
-.navigation ul li:nth-child(2):hover ~ .indicator {
+.navigation ul li:nth-child(2).active ~ .indicator {
   transform: translateX(calc(70px * 1));
 }
 
-.navigation ul li:nth-child(3):hover ~ .indicator {
+.navigation ul li:nth-child(3).active ~ .indicator {
   transform: translateX(calc(70px * 2));
 }
 
-.navigation ul li:nth-child(4):hover ~ .indicator {
+.navigation ul li:nth-child(4).active ~ .indicator {
   transform: translateX(calc(70px * 3));
 }
 
-.navigation ul li:nth-child(5):hover ~ .indicator {
+.navigation ul li:nth-child(5).active ~ .indicator {
   transform: translateX(calc(70px * 4));
 }
