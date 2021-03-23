@@ -141,3 +141,24 @@ body {
 .navigation ul li:nth-child(5).active ~ .indicator {
   transform: translateX(calc(70px * 4));
 }
+
+/* Color Change on Active Indicators */
+.navigation ul li:nth-child(1).active ~ .indicator::before {
+  background: #f53b57;
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator::before {
+  background: #2f89fc;
+}
+
+.navigation ul li:nth-child(3).active ~ .indicator::before {
+  background: #05c46b;
+}
+
+.navigation ul li:nth-child(4).active ~ .indicator::before {
+  background: #775ada;
+}
+
+.navigation ul li:nth-child(5).active ~ .indicator::before {
+  background: #eac100;
+}
