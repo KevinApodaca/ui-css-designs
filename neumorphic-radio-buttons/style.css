@@ -13,4 +13,20 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background: #091921;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container p {
+  color: #215e65;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
