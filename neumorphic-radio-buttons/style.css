@@ -30,3 +30,13 @@ body {
   font-weight: 500;
   margin-bottom: 5px;
 }
+
+.container label {
+  position: relative;
+}
+
+.container label input {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
